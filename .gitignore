@@ -1,0 +1,20 @@
+# 凭据 —— 绝不要提交
+.env
+*.token
+token.txt
+mcp-config.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 同步产出的原始返回（可能含个性化数据）
+data/raw_*.json
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
